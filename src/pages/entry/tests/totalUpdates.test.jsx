@@ -46,7 +46,4 @@ test('update toppings subtotal when toppings checked', async () => {
 
   userEvent.click(cherriesInput);
   expect(toppingSubTotal).toHaveTextContent('1.50');
-
-
-
 });
